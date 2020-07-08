@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+.header-area{
+	background-color: #F0FFF0;
+	padding: 15px 0;
+}
+
+.hero-area{
+	background-color: #F0FFF0;
+	padding: 100px 0;
+}
+
+.nav-item .nav-link{
+	color: #333333;
+	text-decoration: none;
+}
+
+.signup-btn{
+	background-color: #21B573;
+	color: #ffffff !important;
+	padding: 10px 20px;
+	display: inline-block; 
+	border-radius: 50px;
+}
+
+/*hero-area-css*/
+
+.red-color{
+	font-size: 18px;
+	color: #FD511A;
+	margin-bottom: 20px;
+}
+
+ .hero-left h2{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.hero-left span{
+	color: #21B573;
+	display: block;
+}
+
+/*end-hero-area-css*/
+
+/*about-block*/
+
+.about-area{
+	padding: 80px 0;
+}
+
+.about-block{
+	background-color: #F8FFFB;
+	padding: 25px 20px;
+	transition: 0.3s;
+}
+
+
+.about-block h3 {
+    font-size: 22px;
+}
+.about-block img{
+	width: 100%;
+	max-width: 80px;
+	margin-bottom: 30px;
+}
+
+.about-block:hover{
+	box-shadow: 11px 19px 18px -23px #c7c7c7;
+}
+
+/*end-about-block*/
+
+
+/*course-area*/
+
+.course-area{
+	padding: 80px 0;
+}
+
+.online-course-title{
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+
+.card-img-overwrite{
+	padding: 20px;
+}
+
+
+.card-caption{
+    border-top: 1px solid #f2f3f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.course-area .card{
+	border: 0px;
+	box-shadow: 11px 0px 76px -22px #c7c7c7;
+}
+
+/*end-course-area*/
+
+/*testimonial-arae*/
+
+.testimonial-area{
+	padding: 80px 0;
+}
+
+.testimonial-content{
+	margin-top: 40px;
+}
+/*end-testimonial-arae*/
+
+
+/*footer*/
+
+.footer-area{
+	background-color: #282531;
+	padding: 80px 0;
+	color: #ffffff;
+}
+
+
+.footer-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-menu li{
+	display: block;
+}
+
+.footer-menu li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.copyright{
+	margin-top: 40px;
+}
+
+.copyright a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*end-footer*/
